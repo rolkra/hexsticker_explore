@@ -48,15 +48,14 @@ p <- ggplot() +
   theme_void()
 
 library(hexSticker)
-file_out <- "C:/tmp/hex_explore.png"
+file_out <- "hex_explore.png"
 sticker(p,                      # ggplot
         package = "explore",    # name of package
         p_size = 29,            # size package name
         p_color = "darkblue",    # color package name
-        p_x = 1, p_y = 0.6,     # x/y package name
+        p_x = 1, p_y = 0.65,     # x/y package name
         s_x = 1, s_y = 1.17,    # x/y subplot
         s_width = 1.3, s_height = 1,
         h_fill = "lightblue", # "#ECEFF1",
         h_color = "#90A4AE",
         filename = file_out)
-
